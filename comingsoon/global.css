@@ -1,0 +1,79 @@
+* { zoom: 1; }
+
+body {
+	background: #000;
+	text-align: center;
+	font-family: Comic-sans, Calibri, sans-serif;
+	font-size: medium;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+body.black, body.black a { color: black; }
+body.white, body.white a { color: #DDD; }
+body.black h1, body.black h2 { text-shadow: -1px 0 #DDD, 0 1px #DDD, 1px 0 #DDD, 0 -1px #DDD, 2px 2px 4px #DDD; }
+body.white h1, body.white h2 { text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px black; }
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 20px;
+	font-size: .7em;
+}
+
+#outer_wrapper {
+	display: table;
+	height: 100%;
+	#position: relative; /* IE<=7 pound-sign hack */
+	overflow: hidden;
+	
+	width: 100%;
+}
+
+#scaling_wrapper {
+	#position: absolute;
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	
+	width: 100%;
+	#left: 0; /* IE is so bad! */
+}
+
+#inner_wrapper {
+	#position: relative;
+	#top: -50%;
+	width: 70%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	
+	padding: 10px;
+	border: solid black 5px;
+	border-radius: 15px;
+	
+	background-color: black;
+	color: white;
+}
+
+#inner_wrapper h3
+{
+	font-size: 2em;
+}
+
+#footer {
+	font-size: .8em;
+}
+
+.layout_mode_0 #footer { margin-top: 25px; }
+
+/* Misc */
+.hidden, .pseudo-hidden { display: none; }

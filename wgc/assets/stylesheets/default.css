@@ -1,0 +1,249 @@
+@charset "utf-8";
+/*
+CSS 1/2/3 Document
+
+Programming on the internet the way it was meant to be done.
+
+By Xunnamius of Dark Gray.
+
+Do not remove this header.
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: black;
+	background-color: black;
+	background: black url('../images/bg.gif') repeat scroll left top;
+}
+
+#valign {
+	float: left;
+	width: 100%;
+	height: 50%;
+	margin-top: -300px; /* half vertical height*/
+}
+
+#wrapper, #inner_wrapper {
+	width: 800px;
+	height: 550px;
+}
+
+#wrapper {
+	clear: both;
+	margin: 0 auto 0 auto;
+}
+
+#inner_wrapper { position: relative; }
+.bg {
+	width: 620px;
+	height: 450px;
+	top: -20px;
+	left: 90px;
+	
+	opacity: 0.4;
+	background-color: white;
+	position: absolute;
+	z-index: -1;
+}
+
+div > .arrow {
+	width: 71px;
+	height: 38px;
+	margin-top: 175px;
+}
+
+
+.arrow:focus, .arrow:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.arrow.disabled {
+	opacity: 0.1;
+	cursor: auto;
+}
+
+#left {
+	background-image: url('../images/left.png');
+	float: left;
+}
+
+#right {
+	background-image: url('../images/right.png');
+	float: right;
+}
+
+#content, #content2 {
+	width: 600px;
+	margin: 100px auto 0 auto;
+}
+
+#planet {
+	text-align: center;
+	margin-top: -25px;
+	position: relative;
+}
+
+#planet2 {
+	width: 160px;
+	margin: 0 auto 75px auto;
+	text-align: center;
+}
+#planet2 img { margin-top: 10px; }
+#planet_name { margin-bottom: 10px; }
+
+#planet_image {
+	text-align: center;
+	line-height: 300px;
+	height: 350px;
+}
+
+#planet_image img { cursor: pointer; }
+
+#planet_description {
+	margin-top: 10px;
+}
+
+body #wrapper #planet2 ~ h3 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	color: #222;
+}
+
+#planet2 ~ h3 + input {
+	display: block;
+	width: 250px;
+	height: 25px;
+	margin: 10px auto;
+	line-height: 25px;
+	text-align: left;
+	padding: 0 5px;
+}
+
+#select {
+	position: absolute;
+	bottom: 200px;
+	right: 260px;
+	border: solid black 1px;
+	width: 75px;
+	padding: 1px;
+	font-size: 9px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+.button {
+	background-color: white;
+	opacity: 0.8;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+.button:hover, .button:focus {
+	background-color: #BBB;
+	opacity: 0.9;
+}
+
+#login, #next, #back {
+	position: absolute;
+	top: 10px;
+	right: -25px;
+	width: 60px;
+}
+
+#back {
+	left: -25px;
+}
+
+#title, .title { text-align: center; }
+#title #copyright { color: silver; }
+
+#title h1, .title, #planet2 ~ h3 {
+	font-family: Cambria;
+	color: white;
+	font-size: 42px;
+}
+
+.title {
+	text-align: center;
+	color: #222;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+#title2 + h2 span { color: #FFD700; }
+#title3 { font-size: 24px; }
+
+#movement_wrapper, .movementDiv { position: relative; }
+
+body #movement_wrapper3 #center h3 {
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 15px;
+	font-family: Cambria;
+	font-size: 15px;
+	color: #222;
+}
+
+body #movement_wrapper3 li label {
+	display: inline-block;
+	width: 60px;
+	font-size: 15px;
+	font-weight: bold;
+	vertical-align: central;
+	color: #222;
+	text-align: right;
+}
+
+body #movement_wrapper3 ul li label {
+	display: inline;
+}
+
+body #movement_wrapper3 li input {
+	height: 25px;
+	margin: 10px;
+	line-height: 25px;
+	text-align: left;
+	padding: 0 5px;
+}
+
+body #movement_wrapper3 ul li input {
+	width: 250px;
+}
+
+#footer {
+	margin-top: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer a {
+	margin: 0 35px;
+	color: white;
+}
+
+#footer a:link, #footer a:active, #footer a:visited { text-decoration: none; }
+#footer a:hover, #footer a:focus { color: #BBB; }
+
+.hidden { display: none; }
+.invisible { visibility: hidden; }
+.error { color: #700; }
+.unselectable { cursor: default; }
+#center { width: 400px; margin: 30px auto; }
+.floatright {
+	text-align: right;
+	float: right;
+	width: 200px;
+}
+
+.floatleft {
+	float: left;
+	width: 200px;
+}

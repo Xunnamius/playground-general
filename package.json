@@ -1,0 +1,9 @@
+{
+  "name": "general-playground",
+  "version": "0.0.0",
+  "description": "General playground (no prod)",
+  "scripts": {},
+  "author": "Xunnamius",
+  "license": "ISC",
+  "dependencies": {}
+}

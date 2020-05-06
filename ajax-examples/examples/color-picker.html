@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color Picker</title>
+		
+		<style type="text/css">
+			.center { text-align: center; }
+			input { padding: 3px; }
+			
+			#colorContainer {
+				display: inline-block;
+				position: relative;
+				top: 6px;
+				
+				width: 50px;
+				height: 20px;
+				
+				border: solid black 1px;
+			}
+			
+			#noColorBox, #colorBox {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+			
+			#colorBox { background-color: transparent; z-index: 99; }
+			#noColorBox { color: red; z-index: 9; }
+		</style>
+	</head>
+	
+	<body>
+		<h1 class="center">Color Picker App</h1>
+		<form id="colorForm" action="#">
+			<div>
+				<input type="text" id="colorText" placeholder="type your color here" />
+				<div id="colorContainer">
+					<div id="colorBox"></div>
+					<div id="noColorBox" class="center">Invalid</div>
+				</div>
+			</div>
+		</form>
+		
+		<script type="text/javascript">
+			window.onload = function()
+			{
+				var colorText = document.getElementById('colorText');
+				
+				colorForm.onsubmit = function(){ return false; };
+				colorText.onkeyup = function()
+				{
+					var target = document.getElementById('colorBox');
+					target.style.backgroundColor = '';
+					target.style.backgroundColor = this.value;
+				};
+			};
+		</script>
+	</body>
+</html>

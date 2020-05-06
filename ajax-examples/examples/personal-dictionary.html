@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Personal Dictionary</title>
+		
+		<style type="text/css">
+			.center { text-align: center; }
+			input, #dictDef { padding: 3px; }
+			#dictDef {
+				width: 315px;
+				height: 100px;
+				resize: vertical;
+				border: solid black 1px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1 class="center">Personal Dictionary App</h1>
+		<form id="dictForm" action="#" method="get">
+			<div>
+				<input type="text" id="dictText" placeholder="type your word here" /><button type="submit">Look it up!</button>
+			</div>
+		</form>
+		
+		<div id="dictDef">(definition will appear here)</div>
+		
+		<script type="text/javascript">
+			window.onload = function()
+			{
+				var dictForm = document.getElementById('dictForm');
+				
+				dictForm.onsubmit = function()
+				{
+					var dictText = document.getElementById('dictText');
+					var script = document.createElement('script');
+					
+					window.dictResult = function(dataObj)
+					{
+						var dictDef = document.getElementById('dictDef');
+						try { dictDef.innerHTML = dataObj.webDefinitions[0].entries[0].terms[0].text; }
+						catch(e) { dictDef.innerHTML = '<strong>Word not found!</strong> Please try again.'; }
+					};
+					
+					script.type = 'text/javascript';
+					script.src = 'http://www.google.com/dictionary/json?callback=dictResult&q='+dictText.value+'&sl=en&tl=en&restrict=pr%2Cde&client=te';
+					
+					document.body.appendChild(script);
+					return false;
+				};
+			};
+		</script>
+	</body>
+</html>

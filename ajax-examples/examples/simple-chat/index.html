@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Chat</title>
+		
+		<style type="text/css">
+			.center { text-align: center; }
+			
+			#wrapper {
+				width: 600px;
+				height:400px;
+				
+				border: solid black 1px;
+				margin: 0 auto;
+				
+				position: relative;
+			}
+			
+			#chatBox {
+				height: 342px;
+				padding: 5px;
+				padding-top: 20px;
+				overflow-y: scroll;
+			}
+			
+			#chatBox p {
+				margin-top: -10px;
+			}
+			
+			#bottomBox {
+				border-top: solid black 1px;
+				padding: 3px;
+			}
+			
+			#chatText {
+				width: 60%;
+			}
+			
+			#chatSender {
+				width: 19%;
+			}
+			
+			#chatSend {
+				width: 17%;
+				margin-left: 10px;
+			}
+			
+			.sender {
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			
+			.timestamp {
+				font-size: .7em;
+				margin: 0 5px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1 class="center">Simple Chat App</h1>
+		
+		<div id="wrapper">
+			<div id="chatBox">
+				<p class="center init-msg">Messages will appear here!</p>
+			</div>
+			<div id="bottomBox">
+				<form id="chatForm" action="#">
+					<div>
+						<input type="text" id="chatSender" placeholder="your name" />
+						<input type="text" id="chatText" placeholder="your message" />
+						<button type="submit" id="chatSend">SEND</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var firstCheck = function()
+			{
+				var starter = document.getElementById('chatBox').getElementsByTagName('p')[0];
+				if(starter && starter.className.indexOf('init-msg') != -1)
+					starter.parentNode.removeChild(starter);
+			},
+			
+			addChatEntry = function(sender, timestamp, msg)
+			{
+				firstCheck();
+				document.getElementById('chatBox').innerHTML +=
+					'<p><span class="sender">'+sender+
+					'</span><span class="timestamp">('+timestamp+
+					')</span><span class="message">'+msg+
+					'</span></p>';
+			},
+			
+			addErrorEntry = function(err)
+			{
+				firstCheck();
+				document.getElementById('chatBox').innerHTML += '<p class="error">'+err+'</p>';
+			},
+			
+			sendXHR = function(datastr, handler)
+			{
+				var xhr = new XMLHttpRequest();
+				xhr.onreadystatechange = function()
+				{
+					if(xhr.readyState == 4)
+					{
+						if(xhr.status != 200)
+						{
+							addErrorEntry('Client Error: XHR malfunction!');
+							console.error(xhr);
+						}
+						
+						else
+						{
+							handler(JSON.parse(xhr.responseText));
+							xhr = null;
+						}
+					}
+				};
+				
+				xhr.open('GET', 'ajax.php?ajax=1&'+datastr, true);
+				xhr.send(null);
+				return xhr;
+			};
+			
+			window.onload = function()
+			{
+				var lastEntryId = 0,
+				
+				pollLoop = function()
+				{
+					sendXHR('action=poll', function(cdata)
+					{
+						if(cdata)
+						{
+							if(cdata.error) addErrorEntry('Server Error: '+cdata.error);
+							else
+							{
+								if(cdata.length)
+								{
+									for(var i=0, j=cdata.length; i<j; ++i)
+									{
+										var cur = cdata[i];
+										if(cur.id > lastEntryId) // kill late zombie ajax requests
+										{
+											addChatEntry(cur.sender, cur.timestamp, cur.message);
+											lastEntryId = cur.id;
+										}
+									}
+								}
+							
+								setTimeout(pollLoop, 1000);
+							}
+						}
+						
+						else addErrorEntry('Client Error: Invalid server response (empty).');
+					});
+				};
+				
+				document.getElementById('chatForm').onsubmit = function()
+				{
+					var sender = document.getElementById('chatSender'),
+						msg = document.getElementById('chatText');
+					
+					sendXHR('sender='+escape(sender.value)+'&msg='+escape(msg.value), function(cdata)
+					{
+						if(!cdata || cdata.result == 'failure')
+							addErrorEntry('You message failed to post. Please try again.');
+					});
+					
+					msg.value = '';
+					return false;
+				};
+				
+				// Start her off!
+				pollLoop();
+			};
+		</script>
+	</body>
+</html>

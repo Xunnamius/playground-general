@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<modal>
+	<data bind="L2">
+		<row type="Clarafication">The flames cannot be &quot;doused&quot; by normal means.</row>
+	</data>
+	<data bind="L3">
+		<row type="Counters"><ref bind="R2"/></row>
+	</data>
+	<data bind="L4">
+		<row type="Supports"><ref bind="L2"/></row>
+	</data>
+	<data bind="L5">
+		<row type="Supporters"><ref bind="L2"/></row>
+	</data>
+	<data bind="L6">
+		<row type="Supporters"><ref bind="R3"/></row>
+	</data>
+	<data bind="L7">
+		<row type="Counters"><ref bind="R4"/></row>
+		<row type="Supporters"><ref bind="L4"/><ref bind="L5"/><ref bind="L6"/></row>
+	</data>
+	<data bind="L8">
+		<row type="Clarafication" for="ALL" sub-bind="3">Along the shore line, mixed into the sand, but far enough away from the battlements and walls so that they will not be set aflame accidentally.</row>
+		<row type="Clarafication" for="that" sub-bind="5">The enormous force shown IN THE GOT EPISODE towards the end.</row>
+	</data>
+	
+	<data bind="L9">
+		<row type="Supporters"><ref bind="L6"/><ref bind="L7"/></row>
+		<row type="Acknowledgement" sub-bind="2">Acknowledgement of <ref bind="R6"/>&apos;s irrelevancy.</row>
+		<row type="Comment" sub-bind="1">Rhetorical question.</row>
+		<row type="Clarafication" sub-bind="4" for="significant amount">Not &quot;raw&quot; numbers, but troops equipped and primed for a forward assault on a heavily defended castle gate and other initial defenses.</row>
+	</data>
+	<data bind="L10">
+		<row type="Clarafication" sub-bind="1" for="possibly">Possibly means... possibly.</row>
+		<row type="Supporters"><ref bind="L6"/><ref bind="L6"/><ref bind="L7"/><ref bind="L8"/></row>
+	</data>
+	<data bind="L11">
+		<row type="Supports"><ref bind="L10"/><ref bind="L2"/><ref bind="L4"/></row>
+		<row type="Clarafication" sub-bind="1" for="also landed at that other place">Further along shore; where they came from at the end of the GOT episode.</row>
+	</data>
+	<data bind="L13">
+		<row type="Acknowledgement">Acknowledgement of concession in <ref bind="R8"/>.</row>
+	</data>
+	<data bind="L14">
+		<row type="Reaffirm">Reaffirm concession in <ref bind="R8"/>.</row>
+		<row type="Supporters"><ref bind="L2"/></row>
+	</data>
+	<data bind="L15">
+		<row type="Counters"><ref bind="R9"/></row>
+	</data>
+	<data bind="L16">
+		<row type="Clarafication" sub-bind="3">Preemptive clarafication (for further argument).</row>
+		<row type="Reaffirm"><ref bind="L4"/></row>
+	</data>
+	<data bind="L17">
+		<row type="Counters"><ref bind="R11"/></row>
+		<row type="Clarafication" sub-bind="4">However much would be necessary. Very likely a small amount, similar to a gallon or so.</row>
+	</data>
+	<data bind="L18">
+		<row type="Supporters"><ref bind="L2"/><ref bind="L5"/></row>
+	</data>
+	<data bind="L19">
+		<row type="Comment" sub-bind="1">Rhetorical question.</row>
+		<row type="Comment" sub-bind="2">Implying premises from <ref bind="L6"/> and <ref bind="L8"/>.</row>
+		<row type="Supporters"><ref bind="L9"/></row>
+	</data>
+	<data bind="L20">
+		<row type="Clarafication" sub-bind="2">My best archers are atop the tallest towers of the battlements. Recall that King&apos; Landing was a city built to withstand seige. Of course it has tall towers. Look at the opening if you want to see them. And if they are not atop those (too full or whatever), my archers can easily be positioned in such as way as to be able to reach out to where the ships were with their arrows, similar to what happened in GOT.</row>
+	</data>
+	<data bind="L21">
+		<row type="Clarafication" sub-bind="1">Humoring asserted point on assumption that &quot;half of their troops&quot; is referring to some sane number able to even fit on shore! Like Sparta, the door is only so big, and only so many rams can effectively ram it at the same time. Everyone else is just getting shot at by arrows.</row>
+		<row type="Comment" sub-bind="2">Rhetorical question.</row>
+		<row type="Clarafication" sub-bind="3">Obviously this means &quot;more than they reinforced it in GOT&quot;. Their door was barely reinforced. They needed it to be this way so that they could quickly open and close it. You can't do that with a few giant stone blocks in the way! Like in GOT, a sneak attack would obviously come from the sally port.</row>
+	</data>
+	<data bind="L22">
+		<row type="Acknowledgement" sub-bind="1">Acknowledgement of contradiction in <ref bind="R15"/> (you&apos;ll see a lot of these acknowledgements, and they all begin with &quot;um&quot;).</row>
+		<row type="Counters" sub-bind="2">Counters contradiction in <ref bind="R15"/>.</row>
+	</data>
+	<data bind="L23">
+		<row type="Comment" sub-bind="1">Local is laying the framework to repeat himself (a repeat of <ref bind="L21"/>).</row>
+		<row type="Supporters" sub-bind="2"><ref bind="L21"/></row>
+		<row type="Comment" sub-bind="2">The castle gate in GOT was NOT heavily barricaded. You CANNOT readily open and close a heavily barricaded gate. One wooden plank across the middle does not count as heavily barricaded in real life, or in GOT.</row>
+	</data>
+	<data bind="L24">
+		<row type="Comment">Tete-a-tete with <ref bind="R17"/>.</row>
+	</data>
+	<data bind="L26">
+		<row type="Clarafication" sub-bind="2">Clarafication of strategy. Of course the gate wouldn't hold forever.</row>
+		<row type="Clarafication" sub-bind="3" for="for a majority of their troops">Clarafication: A majority of their FORWARD attack troops. In siege warfare, you don't just send in your main army and expect to win. Your pawns go first to clear away the riff raff, get shot at, and open the gates for everyone else.</row>
+	</data>
+	<data bind="L27">
+		<row type="Clarafication" sub-bind="1" for="waited until the door fell">Not what will happen, but what the enemy WANTS to happen, and what they&apos;re banking on.</row>
+		<row type="Supporters" sub-bind="2"><ref bind="GOT"/></row>
+	</data>
+	<data bind="L28">
+		<row type="Supporters"><ref bind="GOT"/></row>
+	</data>
+	<data bind="L30">
+		<row type="Acknowledgement" sub-bind="1">Acknowledgement of <ref bind="R23"/>&apos;s irrelevancy.</row>
+		<row type="Comment" sub-bind="2">Humor <ref bind="R23"/> anyway, for sake of argument.</row>
+		<row type="Comment" sub-bind="3">Preparing to respond to <ref bind="R24"/>.</row>
+		<row type="DCP" sub-bind="5">Possibly a point of disconnection: did he forget <ref bind="L26"/> just happened not two minutes ago?</row>
+	</data>
+	<data bind="L31">
+		<row type="Acknowledgement" sub-bind="1">Acknowledgement of remote&apos;s possible short term memory. Prepares to repeat self.</row>
+	</data>
+	<data bind="L32">
+		<row type="Comment" sub-bind="1">Tried to find previous text to copy and paste, but cannot find it fast enough. Decides to retype. Restated points do not count as &quot;salient&quot;, although they are (should be) implicitly interpreted as such by the debators.</row>
+	</data>
+	<data bind="L33">
+		<row type="Clarafication" sub-bind="1" for="15K">Humor <ref bind="R25"/> with an absurdly large number.</row>
+		<row type="Clarafication" sub-bind="2" for="forward strike force">Extrapolation. Local is sure there are &quot;reserve&quot; forward attackers still on some of the ships somewhere. The goal of the strategy is to lure as many of them onto the ground as possible. Reality check: knights and other heavily armored "main attack force" units are not good at climbing ladders and/or carrying rams.</row>
+		<row type="Comment" sub-bind="2">Repeat of <ref bind="L27"/>.</row>
+		<row type="Supporters"><ref bind="GOT"/></row>
+	</data>
+	<data bind="L34">
+		<row type="Clarafication" for="them">The soldiers in the sand, along with their rams, have all gone up in flames.</row>
+		<row type="Comment">Repeat of <ref bind="L8"/>.</row>
+	</data>
+	<data bind="L35">
+		<row type="Clarafication" sub-bind="1" for="they">The main massive army.</row>
+		<row type="Clarafication" sub-bind="1" for="dies down">This gives me a good 15 to 30 minutes to essentially throw flames at the enemy&apos;s approaching warships.</row>
+		<row type="Clarafication" sub-bind="3" for="they">Fire at the approaching warships.</row>
+		<row type="Supporters" sub-bind="3"><ref bind="L15"/></row>
+		<row type="Clarafication" sub-bind="6" for="they&apos;re in the water">The main massive army is now either directly in the water or in small unprotected life boats. Evacuation processes are a very messy panicked business. No heavy siege tech. Barely any rams. Barely any real weaponry. People confused. Going in the wrong directions. Random people shouting contradictory orders. AKA: sitting ducks while the shore fire dies down and local&apos;s archers knock some more arrows. BTW: heavily armored units (knights and the like) do not float all that well. Write that down.</row>
+	</data>
+	<data bind="L36">
+		<row type="Acknowledgement" sub-bind="1">Acknowledgement of contradiction at <ref bind="R27"/>.</row>
+		<row type="Supporters"><ref bind="L21"/></row>
+		<row type="Comment" sub-bind="3">Losing patience with these obvious contradictions of logic.</row>
+	</data>
+	<data bind="L37">
+		<row type="Supporters"><ref bind="GOT"/></row>
+	</data>
+	<data bind="L38">
+		<row type="Clarafication" sub-bind="1" for="they">The defenders.</row>
+		<row type="Clarafication" sub-bind="1" for="them all">The forward attack force, led by king whatshisface.</row>
+	</data>
+	<data bind="L39">
+		<row type="Acknowledgement">Acknowledgement of circular argument that started at <ref bind="R25"/>, and that the argument is not moving forward; visibly annoyed by remote&apos;s subconscious circumnavigation of the facts.</row>
+	</data>
+	<data bind="L40">
+		<row type="Comment">Blatant repeat of <ref bind="L14"/><ref bind="L18"/><ref bind="L21"/><ref bind="L28"/>... not again -_-</row>
+		<row type="Clarafication" sub-bind="5">This is their &quot;attempt&quot;.</row>
+		<row type="Clarafication" sub-bind="6" for="force">Main battle-ready army. The real fighters, knights, heavily armored units, etc. Contrast that with a relatively fast lightly armored forward attack force.</row>
+		<row type="Acknowledgement" sub-bind="8">Acknowledgement of obvious statement <ref bind="R33"/>.</row>
+		<row type="Comment" sub-bind="10">Humor Remote with five rams instead of three.</row>
+		<row type="Comment" sub-bind="12">Repeat of <ref bind="L21"/> AGAIN!</row>
+	</data>
+	<data bind="L41">
+		<row type="Acknowledgement" sub-bind="2">Acknowledgement of repeating self again.</row>
+	</data>
+	<data bind="L42">
+		<row type="Comment">Repeat of <ref bind="L9"/> and <ref bind="L27"/> again!</row>
+		<row type="Clarafication" sub-bind="1" for="them">The forward strike force. See: <ref bind="L34"/></row>
+	</data>
+	<data bind="L43">
+		<row type="Comment">Not another reclarification of <ref bind="L27"/>...</row>
+	</data>
+	<data bind="L44">
+		<row type="Comment">Resume repeating self...</row>
+	</data>
+	<data bind="L45">
+		<row type="Acknowledgement">Sees <ref bind="R37"/>. Ignores seemingly random datapoint (result of disconnect @ <ref bind="R34"/>)</row>
+	</data>
+	<data bind="L46">
+		<row type="Acknowledgement">Acknowledgement of contradiction at <ref bind="R38"/>.</row>
+	</data>
+	<data bind="L47">
+		<row type="Supporters"><ref bind="GOT"/></row>
+		<row type="Comment" sub-bind="3">Attempting to cast a stark contrast against the contradiction at <ref bind="R38"/> by fleshing out premises.</row>
+	</data>
+	<data bind="L48">
+		<row type="Comment">Well, duh (see: <ref bind="R40"/>).</row>
+	</data>
+	<data bind="L49">
+		<row type="Clarafication" for="10 or 15K">Some god awful large number, BEFORE the sands were set on green fire!</row>
+	</data>
+	<data bind="L50">
+		<row type="Reaffirm">Reaffirmation of <ref bind="L49"/>.</row>
+	</data>
+	<data bind="L51">
+		<row type="Clarafication" for="um" sub-bind="1">Not another contradiction... (see: <ref bind="R43"/>)</row>
+	</data>
+	<data bind="L52">
+		<row type="Reaffirm" for="10K" sub-bind="1">ReReReaffirm <ref bind="L49"/>.</row>
+	</data>
+	<data bind="L53">
+		<row type="Comment">Direct repeat of <ref bind="L33"/> and <ref bind="L34"/>.</row>
+	</data>
+	<data bind="L55">
+		<row type="Supporters" sub-bind="3"><ref bind="L28"/><ref bind="L54"/><ref bind="R46"/></row>
+		<row type="Clarafication" sub-bind="4">Some other shore on an other opposite side of King's Landing or something.</row>
+	</data>
+	<data bind="L56">
+		<row type="Acknowledgement">Acknowledgement of logical contradiction at <ref bind="R47"/>.</row>
+	</data>
+	<data bind="L58">
+		<row type="Comment">Accidental release of tempo by local to remote at this point. Remote has succeeded in asserting <ref bind="R47"/> by virtue of the &quot;rock&quot; somehow being interpreted as necessary when it is not. Whoops!</row>
+	</data>
+	<data bind="L59">
+		<row type="Comment">Supported by Reality. See: <ref bind="R20"/>.</row>
+	</data>
+	<data bind="L60">
+		<row type="Comment" sub-bind="3">Supported by Reality.</row>
+		<row type="Supporters" sub-bind="5"><ref bind="GOT"/></row>
+	</data>
+	<data bind="L61">
+		<row type="Comment">It was a mistake to give up the tempo just because remote threw so many contraditions...</row>
+	</data>
+	<data bind="L62">
+		<row type="Acknowledgement">Acknowledgement of <ref bind="R51"/>.</row>
+	</data>
+	<data bind="L63">
+		<row type="Acknowledgement">Acknowledgement of <ref bind="R54"/>&apos;s irrelevancy.</row>
+	</data>
+	<data bind="L64">
+		<row type="Acknowledgement">Acknowledgement of ad hominem (google it) attempt at <ref bind="R55"/>. Will repay later. Anways...</row>
+	</data>
+	<data bind="L65">
+		<row type="Clarafication" for="okay">You have the temp now, so <ref bind="R56"/> will be allowed.</row>
+	</data>
+	<data bind="L67">
+		<row type="Comment">Payback for <ref bind="R55"/>. Hah!</row>
+	</data>
+	<data bind="L68">
+		<row type="Supporters"><ref bind="L66"/><ref bind="L59"/><ref bind="R20"/></row>
+	</data>
+	<data bind="L69">
+		<row type="Clarafication" sub-bind="3">With greek fire arrows!</row>
+	</data>
+	<data bind="L70">
+		<row type="Clarafication" for="um">Damn... not another contradiction (see: <ref bind="R57"/>). Wow, are kidding me?!</row>
+	</data>
+	<data bind="L71">
+		<row type="Comment">*sigh*</row>
+	</data>
+	<data bind="L72">
+		<row type="Comment">Dodge of <ref bind="R59"/>!</row>
+	</data>
+	<data bind="L73">
+		<row type="Comment">Parry of <ref bind="R60"/>!</row>
+	</data>
+	<data bind="L74">
+		<row type="Comment">Two can play at this game.</row>
+	</data>
+	<data bind="L75">
+		<row type="Comment">Um... lookback over the argument. Didn&apos;t you forget something again?</row>
+	</data>
+	<data bind="L78">
+		<row type="Comment">Wow. All of these contradictions. All of this bullshitting. It&apos;s over for remote.</row>
+	</data>
+	<data bind="L79">
+		<row type="Comment">Maybe remote can be shown his contradictions...</row>
+	</data>
+	<data bind="L80">
+		<row type="Acknowledgement">Acknowledgement of <ref bind="R64"/> as the final tolerable act of hypocrisy.</row>
+	</data>
+	<data bind="L81">
+		<row type="Comment">...</row>
+	</data>
+	<data bind="R2">
+		<row type="Counterers"><ref bind="L3"/></row>
+	</data>
+	<data bind="R3">
+		<row type="Supports"><ref bind="L1"/><ref bind="L2"/><ref bind="L4"/></row>
+	</data>
+	<data bind="R4">
+		<row type="Clarafication" for="they&apos;d">He means &quot;they,&quot; the entire army (see: <ref bind="R5"/>), which wouldn&apos;t be on shore anyway, so it doesn&apos;t really make sense in context.</row>
+	</data>
+	<data bind="R5">
+		<row type="Clarafication" sub-bind="2">He is not speaking about the forward attack force... but the entire army, while the forward attack force is what is currently being discussed.</row>
+	</data>
+	<data bind="R6">
+		<row type="Supporters"><ref bind="R5"/></row>
+		<row type="Comment" sub-bind="2">In and of itself irrelevant.</row>
+	</data>
+	<data bind="R7">
+		<row type="RFC">Met retroactively by <ref bind="L11"/>.</row>
+	</data>
+	<data bind="R8">
+		<row type="Concession">Concession of point to <ref bind="L10"/>, <ref bind="L11"/>, and <ref bind="L12"/>.</row>
+	</data>
+	<data bind="R9">
+		<row type="Concession">Preemptive concession: &quot;were&quot; implies past tense.</row>
+		<row type="Counterers"><ref bind="L55"/></row>
+	</data>
+	<data bind="R10">
+		<row type="RFC">Met by <ref bind="L18"/>.</row>
+	</data>
+	<data bind="R12">
+		<row type="Concession">Concession of point to <ref bind="L15"/>: so the ships WOULD be destroyed!</row>
+	</data>
+	<data bind="R13">
+		<row type="Comment">May be another &quot;The Sky is Blue&quot; type statement if literal, which would make it an illegal inference of <ref bind="L10"/>, and a potential contradiction of <ref bind="R6"/>. What? Will they just spiderman the walls lmao? If this comment was meant figuratively, its cogency is questioned and ultimately destroyed by the remainder of the argument.</row>
+		<row type="DCP">Possible disconnect point: assumption by remote that local waiting for the main force instead of trapping them at sea.</row>
+	</data>
+	<data bind="R15">
+		<row type="Clarafication" sub-bind="1" for="there">He means &quot;on the battlements&quot;.</row>
+		<row type="Contradiction">Direct contradiction of GOT episode.</row>
+	</data>
+	<data bind="R16">
+		<row type="Comment" sub-bind="1">Dropped contradiction thread <ref bind="R15"/>.</row>
+		<row type="Comment" sub-bind="2">Random assertion; circumnavigation of <ref bind="L21"/>.</row>
+		<row type="Counterers"><ref bind="L23"/></row>
+	</data>
+	<data bind="R17">
+		<row type="Comment">See: <ref bind="R18"/>.</row>
+	</data>
+	<data bind="R18">
+		<row type="Clarafication" sub-bind="1">Preemptive clarafication attempt apropos <ref bind="L25"/>.</row>
+		<row type="Counterers"><ref bind="L26"/></row>
+	</data>
+	<data bind="R19">
+		<row type="Acknowledgement">Hypothetical acknowledged by all parties. Local assumes five rams can attack the door concurrently for the sake of argument.</row>
+	</data>
+	<data bind="R20">
+		<row type="Clarafication">A clarafication of the materials a typical ram is made of. <a href="http://en.wikipedia.org/wiki/Battering_ram">Wood.</a> I&apos;m sure the siege ships would be made of the hardest, strongest wood available—similar in material to the rams themselves. Here, some wikipedia reality: &quot;... a battering ram <strong>is just a large, heavy [wooden] log</strong> carried by several people and propelled with force against an obstacle ...&quot;; as for the GOT ram, it was most definitely a <a href="http://en.wikipedia.org/wiki/Battering_ram#Famous_sieges">Capped Ram</a>, or &quot;... a battering ram <strong>that has an accessory at the head ([the accessory] usually made of iron or steel and sometimes punningly shaped into the head and horns of an ovine ram)</strong> to do more damage to a building.&quot; Now, still trying to claim that &quot;hard&quot; wood can&apos;t be set on fire, hmm? <a href="#lol">We&apos;ll deal with that shortly.</a></row>
+		<row type="Comment">What do we mean when we say greek fire (or wildfire or whatever)? Some ungodly cross between <a href="http://en.wikipedia.org/wiki/Napalm">Napalm</a> and <a href="http://en.wikipedia.org/wiki/Greek_fire#Effectiveness_and_countermeasures">Greek Fire</a>. Looking for an effective countermeasure? Stay the FUCK out of range!</row>
+	</data>
+	<data bind="R21">
+		<row type="RFC">Request for clarafication. Met by <ref bind="L28"/>.</row>
+	</data>
+	<data bind="R22">
+		<row type="RFC">Some veiled request for clarafication. Met by <ref bind="L29"/>.</row>
+	</data>
+	<data bind="R23">
+		<row type="Comment">Implying there exists a strategy that suffers from &quot;lack of variables&quot;; this thread of thought is immediately dropped by its begetter due to its blatant irrelevancy.</row>
+	</data>
+	<data bind="R24">
+		<row type="Supporters"><ref bind="L26"/></row>
+	</data>
+	<data bind="R25">
+		<row type="Comment">Non-salient, non-cogent, no substance, no support.</row>
+		<row type="DCP">Possible disconnect point: apparently <ref bind="L17"/> and <ref bind="L18"/> were forgotten already!</row>
+	</data>
+	<data bind="R26">
+		<row type="Clarafication">Clarafication of <ref bind="R25"/>&apos;s immense number, heads off a would-be contradiction.</row>
+	</data>
+	<data bind="R27">
+		<row type="Contradiction">Logical contradiction: did he miss the whole conversation? Why did we circle back here? The sand is on fire, says <ref bind="L34"/>! WTF?</row>
+		<row type="Comment">Circumnavigation of point. Suppose a small forward assault force, similar to the remaining 100 at the end of GOT, make it through a broken castle gate... the MAIN ARMY and all of the heavy siege tech is STILL on fire and pretty much LOST AT SEA!</row>
+	</data>
+	<data bind="R28">
+		<row type="Counterers"><ref bind="L21"/></row>
+	</data>
+	<data bind="R29">
+		<row type="Contradiction">Contradiction of GOT. To be able to open and shut the door so quickly means it was lightly barricaded, at best... and STILL held its own against ram! Imagine quintupling that fortification attempt.</row>
+	</data>
+	<data bind="R30">
+		<row type="Comment">Failed attempt at reinforcing <ref bind="R29"/>.</row>
+	</data>
+	<data bind="R32">
+		<row type="Comment" sub-bind="1">Ram # reduced from five to three, irrelevant anyway.</row>
+		<row type="Comment" sub-bind="2">Confirmed subconscious circumnavigation attempt. This isn&apos;t going to be pretty.</row>
+	</data>
+	<data bind="R33">
+		<row type="Comment">Obvious statement is, well, obvious.</row>
+	</data>
+	<data bind="R34">
+		<row type="DCP">Possibly a point of disconnection: were these lines interpreted as &quot;10 x 1000 troops&quot;? No way.</row>
+	</data>
+	<data bind="R35">
+		<row type="Clarafication" for="their force">The initial forward strike force led by the king in GOT.</row>
+	</data>
+	<data bind="R36">
+		<row type="Comment">WE JUST DISCUSSED THIS LOL. See: <ref bind="L27"/>.</row>
+	</data>
+	<data bind="R37">
+		<row type="Comment">So there was a disconnection at <ref bind="R34"/>...</row>
+	</data>
+	<data bind="R38">
+		<row type="Contradiction">Contradiction of GOT. A thousand (or more) men landed initially. The vastness of their initial forward force was even commented on by many of the defenders. Rewatch the episode.</row>
+	</data>
+	<data bind="R39">
+		<row type="Clarafication" sub-bind="1" for="100">Around this number.</row>
+	</data>
+	<data bind="R40">
+		<row type="Comment">Irrelevant, but supports <ref bind="L47"/> due to this statement being obvious.</row>
+		<row type="Supports"><ref bind="L47"/></row>
+	</data>
+	<data bind="R42">
+		<row type="Acknowledgement">Hypothetical figures at <ref bind="L49"/> acknowledged by all parties.</row>
+	</data>
+	<data bind="R43">
+		<row type="Reaffirm" sub-bind="1">Reaffirmation of <ref bind="L49"/>.</row>
+		<row type="Clarafication" sub-bind="2">Direct contradiction of self. Denial of <ref bind="L49"/>.</row>
+	</data>
+	<data bind="R44">
+		<row type="Comment">Preempted by <ref bind="L51"/>.</row>
+	</data>
+	<data bind="R45">
+		<row type="Acknowledgement">Finally! An acknowledgement of <ref bind="L53"/>. Progress!</row>
+	</data>
+	<data bind="R46">
+		<row type="Reaffirm">Reaffirmation of <ref bind="L49"/>. The sand is on fire.</row>
+	</data>
+	<data bind="R47">
+		<row type="Comment">Looks like <ref bind="L18"/> was forgotten this time.</row>
+		<row type="Contradiction" sub-bind="2">Contradiction of GOT. The wind was pushing the ships towards shore. Ships were also sailing towards shore the entire time (the end goal). They&apos;re within range.</row>
+	</data>
+	<data bind="R48">
+		<row type="Comment">Hmm. Perhaps this whole thing an elaborate troll of his...</row>
+	</data>
+	<data bind="R49">
+		<row type="Comment">Ouch. And he takes the tempo!</row>
+	</data>
+	<data bind="R51">
+		<row type="Supporters" sub-bind="1"><ref bind="L62"/></row>
+		<row type="Comment" sub-bind="2">Note that we have LITERALLY gone in a full and complete circle. We are now back at <ref bind="L12"/> for god sake.</row>
+		<row type="Comment" sub-bind="2">Comehow implying the incorrect notion that conoes are harder to set on fire than armored ships, or that they are not basically sitting (or moving) ducks with little to no protection out on what amounts to the open sea in heavy armor.</row>
+	</data>
+	<data bind="R52">
+		<row type="Comment">And go where? To rainbow mountain?</row>
+	</data>
+	<data bind="R53">
+		<row type="Supporters"><ref bind="L27"/><ref bind="L28"/></row>
+		<row type="Comment">Yep. They&apos;re panicking in the water while fire gets rained down upon them.</row>
+	</data>
+	<data bind="R54">
+		<row type="Supporters"><ref bind="R51"/></row>
+		<row type="Comment">Irrelevant.</row>
+	</data>
+	<data bind="R56">
+		<row type="Comment" sub-bind="1">Oh... so now we&apos;re down to one ram again. Okay. See: <ref bind="L40"/>.</row>
+	</data>
+	<data bind="R57">
+		<row type="Contradiction">Contradiction of Reality. See <ref bind="R20"/>.</row>
+		<row type="Comment">Flaming green-fire arrows can set ablaze armored ships, melt steel and stone, cling to skin, but it won&apos;t touch a long wooden ram with a metal ram&apos;s head on it... really? Even regular fire could get that job done. Think again.</row>
+	</data>
+	<data bind="R58">
+		<row type="Comment">Then stop contradicting yourself... or &quot;saying weird things&quot; when put nicely (<ref bind="L71"/>).</row>
+	</data>
+	<data bind="R59">
+		<row type="Comment">2 for 0.</row>
+	</data>
+	<data bind="R60">
+		<row type="Comment">3 for 0. I will call this &quot;meta-ad-hominem&quot; or ad hominem inside of ad hominem playing as legitimate discourse lols.</row>
+	</data>
+	<data bind="R61">
+		<row type="Contradiction">Contradiction. Plural? See: <ref bind="R56"/> and <ref bind="R62"/>.</row>
+	</data>
+	<data bind="R62">
+		<row type="Contradiction">Contradiction of self. Singular now? See: <ref bind="R56"/> and <ref bind="R61"/>.</row>
+		<row type="Comment">Okay, so now we're down to one ram again... beach is on fire... majority of troops are somewhere at sea... *sigh*</row>
+	</data>
+	<data bind="R63">
+		<row type="Contradiction">Contradiction of the remote&apos;s own past. Also known as: hypocrisy. See: <ref bind="R55"/>. Seems like he forgot that too.</row>
+	</data>
+	<data bind="R64">
+		<row type="Contradiction">Pious contradiction of reality. He says this while failing to read and remember even simple debate points. See: <ref bind="R55"/>, <ref bind="L80"/> and the entire argument.</row>
+	</data>
+	
+	<!-- Highlights of the grossest illogic! -->
+	<data bind="1">
+		Lol! &quot;Hardwood&quot; cannot be set on fire! Well, fuck fire retardant clothing and stuff... might as well just coat everything in wood. I&apos;ll definitely survive any fire!
+	</data>
+	<data bind="2">
+		Because he is obviously a master general major commander of strategy and, as such a god, his opinion reigns over all! No, what this is called is &quot;I cannot win, but maybe he can, so please, try him instead&quot;.
+	</data>
+	<data bind="3">
+		*point flies right over remote&apos;s head* .... *and there it goes* .... *woosh*
+	</data>
+	<data bind="4">
+		Lol. Yeah. Because the last hour of conversation didn&apos;t just happen.
+	</data>
+	<data bind="5">
+		AHA! SO IT WAS A TROLL ALL ALONGDESU?!
+	</data>
+</modal>

@@ -1,0 +1,228 @@
+<html>
+	<head>
+		<title>Lolz Inc.</title>
+		
+		<link style="text/css" rel="stylesheet" href="assets/bootstrap.css" />
+		<link style="text/css" rel="stylesheet" href="assets/simplemodal.css" />
+		
+		<style type="text/css">
+			body {
+				font-family: Tahoma, Helvetica, sans-serif;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+			.msg { position: relative; }
+			h6 { font-variant: small-caps; }
+			
+			table.table tbody tr td, table.table tbody tr th { vertical-align: middle; }
+			table.table thead tr td, table.table thead tr th { text-align: center; }
+			
+			div#convobox table.table tbody tr td.msg { border-left: none; }
+			div#convobox table.table tbody tr td.highlights { width: 5%; }
+			
+			div#convobox table.table th:not(.highlights),
+			div#convobox table.table td:not(.highlights)
+			{ border-top: none; }
+			
+			div#convobox table.table thead th { border-bottom: solid #DDD 1px; }
+			
+			#header {
+				margin-bottom: 50px;
+			}
+			
+			#header h1 { margin-bottom: 25px; }
+			
+			.label { position: absolute; padding: 5px; }
+			div#convobox .label { right: 900px; }
+			#back2top {
+				position: fixed;
+				bottom: 2px;
+				right: 5px;
+				padding: 0;
+			}
+						
+			.align-center { text-align: center; }
+			
+			table.table tr td.total-contradictions {
+				background-color: #EC9D98;
+			}
+			
+			.side-local { color: #0064cd; }
+			.side-remote { color: #9d261d; }
+			
+			.local, .remote {
+				cursor: pointer;
+			}
+			
+			.CI {
+				opacity: .25;
+			}
+			
+			.CD {
+				background-color: #f2ceda;
+			}
+			
+			.SP {
+				background-color: #cdeacd;
+			}
+			
+			.CP {
+				background-color: #feeacd;
+			}
+			
+			.AH {
+				background-color: #b0e6fd;
+			}
+			
+			table.table tbody tr.local.CI:hover td:not(.highlights),
+			table.table tbody tr.remote.CI:hover td:not(.highlights), {
+				background-color: white;
+				cursor: default;
+			}
+			
+			.table tbody tr.local td.highlights, .table tbody tr.local.mouseover td {
+				background-color: #0064cd;
+				color: #ff9b32;
+			}
+			
+			.table tbody tr.remote td.highlights, .table tbody tr.remote.mouseover td {
+				background-color: #9d261d;
+				color: #62d9e2;
+			}
+			
+			td.highlights {
+				text-align: center;
+			}
+			
+			html body div#convobox table.table tbody tr.illogical-highlight td {
+				background-color: #7a43b6;
+				color: #85BC49;
+			}
+			
+			html body div#convobox table.table tbody tr.illogical-highlight.mouseover td {
+				opacity: .8;
+			}
+			
+			#legendbox p {
+				border-radius: 5px;
+				padding: 5px;
+			}
+			
+			.window-accordion h4 {
+				background: #6B7B95;
+				color: white;
+				cursor: pointer;
+				font: 12px Helvetica, Arial, sans-serif;
+				line-height: 16px;
+				margin-bottom: 1px;
+				padding: 3px 5px 1px;
+			}
+			
+			.window-accordion h4 > span { float: right; }
+			.window-accordion h4 span span { font-style: italic; }
+			
+			.window-accordion h5:not(:first-child) { margin-top: 25px; }
+			.window-accordion h5 span {
+				color: goldenrod;
+				font-weight: normal;
+			}
+			
+			.window-accordion .accordion-content {
+				background-color: #F4F5F5;
+			}
+			
+			.window-accordion .accordion-content > div {
+				margin: 0.5em 0;
+				padding: 0 6px 8px 6px;
+			}
+			
+			.hidden { opacity: 0; display: none; }
+		</style>
+	</head>
+	
+	<body>
+		<h1 id="loading" class="align-center">Loading...</h1>
+		<div id="wrapper" class="hidden">
+			<div id="header" class="align-center">
+				<h1>The Lols</h1>
+				<h6>[View me in Chrome or, maybe, Firefox]</h6>
+				<hr />
+			</div>
+			<div class="container">
+				<div id="contribox">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Total Points</th>
+								<th>Salient Points</th>
+								<th>Destroyed Points</th>
+								<th>Contradictions</th>
+								<th>Ad Hominem</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Tre Giles</td>
+								<td class="total-points">0</td>
+								<td class="total-salient">0</td>
+								<td class="total-destroyed">0</td>
+								<td class="total-contradictions">0</td>
+								<td class="total-adhominem">0</td>
+							</tr>
+							<tr>
+								<td>Dan75820</td>
+								<td class="total-points">0</td>
+								<td class="total-salient">0</td>
+								<td class="total-destroyed">0</td>
+								<td class="total-contradictions">0</td>
+								<td class="total-adhominem">0</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="row">
+					<div id="interestbox" class="span8">
+						<ul class="nav nav-tabs nav-stacked">
+							<li><a href="#point-beginning">The Beginning</a></li>
+							<li><a href="#point-firstAH">First ad hominem action</a></li>
+							<li><a href="#point-degradation">Where things begin to degrade</a></li>
+							<li><a href="#point-hypocrisy">Hypocrisy at its finest!</a></li>
+							<li><a href="#point-illogicalEOA">Point of complete digression</a></li>
+							<li><a href="#lol">Hardwood floors are fireproof LOL!</a></li>
+						</ul>
+					</div>
+					<div id="legendbox" class="span4">
+						<p class="CI">Completely irrelevant statement</p>
+						<p class="CD">Contradiction</p>
+						<p class="SP">Salient (or at least cogent) point</p>
+						<p class="CP">Countered point</p>
+						<p class="AH">Ad Hominem (<a href="http://en.wikipedia.org/wiki/Ad_hominem" target="_blank">?</a>)</p>
+					</div>
+				</div>
+				<div id="convobox">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Message</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<p id="back2top" class="label"><a href="#header" title="Back to top">&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;</a></p>
+		
+		<script type="text/javascript" src="assets/moo-core-1.4.5.js"></script>
+		<script type="text/javascript" src="assets/moo-more-1.4.0.1.js"></script>
+		<script type="text/javascript" src="assets/simple-modal.js"></script>
+		<script type="text/javascript" src="assets/main.js?fuckfirefox"></script>
+	</body>
+</html>
